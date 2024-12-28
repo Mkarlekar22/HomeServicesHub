@@ -1,0 +1,22 @@
+/* src/Pages/Cart/CartPage.css */
+
+.empty-cart-image {
+    max-width: 300px;
+    margin: 0 auto;
+}
+/* CartPage.css */
+
+.checkout-button {
+    background-color: #28a745; /* Green color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+    background-color: #218838; /* Darker green */
+}

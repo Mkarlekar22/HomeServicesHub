@@ -1,0 +1,82 @@
+/* src/pages/Auth/LoginPage.css */
+
+/* Login Container Styling */
+.login-container {
+  max-width: 400px; /* Adjusted width */
+  margin: 50px auto; /* Added margin for spacing from the top */
+  padding: 20px; /* Increased padding */
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow for emphasis */
+  backdrop-filter: blur(10px); /* Blur effect for background */
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #1e90ff; /* Dodger blue */
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-control {
+  padding: 10px; /* Increased padding */
+  font-size: 1rem; /* Slightly larger font size */
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  transition: all 0.3s ease; /* Smooth transition for all changes */
+}
+
+.form-control:hover {
+  border-color: #1e90ff; /* Border color change on hover */
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px; /* Increased padding */
+  font-size: 1rem; /* Slightly larger font size */
+  font-weight: bold;
+  border-radius: 25px; /* More rounded corners */
+  background: linear-gradient(to right, #1e90ff, #00bfff); /* Gradient background */
+  border: none;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow */
+  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition for background and transform */
+}
+
+button[type="submit"]:not(:disabled):hover {
+  background: linear-gradient(to right, #0056b3, #1e90ff); /* Darker gradient on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.alert {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  background: rgba(220, 53, 69, 0.9); /* Semi-transparent red background */
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow */
+}
+
+@media (max-width: 576px) {
+  .login-container {
+    padding: 15px; /* Slightly increased padding for better touch experience */
+  }
+
+  h2 {
+    font-size: 1.75rem; /* Slightly larger font size */
+  }
+
+  button[type="submit"] {
+    font-size: 1rem; /* Adjusted font size */
+  }
+}

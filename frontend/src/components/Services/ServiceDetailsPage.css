@@ -1,0 +1,6 @@
+.service-image {
+    height: 200px; /* Set a consistent height */
+    width: 100%; /* Make images fit the width of their container */
+    object-fit: cover; /* Ensure images cover the container without distortion */
+  }
+  

@@ -1,0 +1,82 @@
+/* Additional CSS for the registration form */
+
+/* Form Container Enhancements */
+.registration-container {
+  max-width: 450px; 
+  margin: 50px auto; 
+  padding: 20px; 
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow for emphasis */
+  backdrop-filter: blur(10px); /* Blur effect for background */
+}
+
+/* Input Field Enhancements */
+.form-control {
+  padding: 10px; 
+  font-size: 1rem; /* Slightly larger font size */
+  transition: all 0.3s ease; /* Smooth transition for all changes */
+}
+
+.form-control:hover {
+  border-color: #1e90ff; /* Border color change on hover */
+}
+
+/* Button Enhancements */
+button[type="submit"] {
+  padding: 12px; 
+  font-size: 1rem; 
+  font-weight: bold;
+  border-radius: 25px; /* More rounded corners */
+  background: linear-gradient(to right, #1e90ff, #00bfff); /* Gradient background */
+  border: none;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow */
+  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition for background and transform */
+}
+
+button[type="submit"]:not(:disabled):hover {
+  background: linear-gradient(to right, #0056b3, #1e90ff); /* Darker gradient on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Alert Enhancements */
+.alert {
+  margin-bottom: 20px;
+  border-radius: 5px; 
+  padding: 10px;
+  background: rgba(220, 53, 69, 0.9); /* Semi-transparent red background */
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow */
+}
+
+/* Password Toggle Icon Enhancements */
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #1e90ff;
+  font-size: 1.2rem; /* Larger icon */
+  transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.password-toggle:hover {
+  color: #0056b3; /* Darker color on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+  .registration-container {
+    padding: 20px; /* Slightly increased padding for better touch experience */
+  }
+
+  h2 {
+    font-size: 1.75rem; /* Slightly larger font size */
+  }
+
+  button[type="submit"] {
+    font-size: 1rem; 
+  }
+}

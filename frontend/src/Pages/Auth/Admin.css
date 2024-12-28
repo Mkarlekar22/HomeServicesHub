@@ -1,0 +1,14 @@
+/* src/pages/AdminDashboard.css */
+
+.table {
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    text-align: center;
+}
+
+.table .btn {
+    margin: 0 5px;
+}

@@ -1,0 +1,5 @@
+package com.app.entities;
+
+public enum ServiceType {
+	CLEANING, PLUMBING_SERVICE,ELECTRICAL_SERVICE,AC_REPAIRE_SERVICE,PAINTING_SERVICE, NULL
+}
